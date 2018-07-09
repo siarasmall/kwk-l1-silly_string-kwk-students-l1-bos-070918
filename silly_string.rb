@@ -47,6 +47,6 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 a=o
 A=O
-sentence = Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing! # Add your gsub chain here
+sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
 puts sentence
