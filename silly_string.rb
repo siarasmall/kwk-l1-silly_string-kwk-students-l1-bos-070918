@@ -45,8 +45,7 @@ puts proper_sentence.capitalize
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
-a=o
-A=O
+
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
 puts sentence
