@@ -41,9 +41,9 @@ proper_sentence = "i really like programming.".capitalize # Put a . after the st
 puts proper_sentence
 
 # Challenge 7: String Switcheroo
-sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
+sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub("a","o").gsub("A","O")
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
 
-puts sentence.gsub("a","o").gsub("A","O")
+puts sentence.
